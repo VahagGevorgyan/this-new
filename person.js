@@ -18,6 +18,6 @@ Person.prototype.compareAge = function (person) {
     return `${person.name} is the same age as me`;
   }
 };
-console.log(p1.compareAge(p2))
-console.log(p2.compareAge(p1))
+console.log(p1.compareAge(p2));
+console.log(p2.compareAge(p1));
 console.log(p1.compareAge(p3));
